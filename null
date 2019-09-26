@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document signed="false">
+<Level level="1" mode="or" result="true">
+<user><username>User1</username><choice>true</choice></user><user><username>User2</username><choice>false</choice></user></Level><Level level="2" mode="and" result="true"><user><username>User3</username><choice>true</choice></user><user><username>User7</username><choice>true</choice></user></Level><Level level="3" result="true"><user><username>User4</username><choice>true</choice></user></Level><Level level="4" result="false"><user><username>User5</username><choice>false</choice></user></Level><Level level="5" result="true"><user><username>User6</username><choice>true</choice></user></Level></document>

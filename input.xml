@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<company>
+    <staff >
+        <user>MainUser</user>
+    </staff>
+    <staff mode = "or">
+        <user>User11</user>
+        <user>User2</user>
+    </staff>
+    <staff mode = "and">
+        <user>User3</user>
+        <user>User7</user>
+    </staff>
+    <staff >
+        <user>User4</user>
+    </staff>
+    <staff >
+        <user>User5</user>
+    </staff>
+    <staff mode="and">
+        <user>User7</user>
+        <user>User3</user>
+    </staff>
+    <staff >
+        <user>MainUser</user>
+    </staff>
+</company>
