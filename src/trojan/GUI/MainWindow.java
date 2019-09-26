@@ -74,12 +74,7 @@ public class MainWindow extends JFrame {
         btnOpen.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-//                if((ChooseWindow.checkFinish())&&(ReadXMLFile.list.size() != 0)){
-////                    gridUser.removeAll();
-////                    label.setText("");
-////                    repaint();
-//                    new InformWindow(4);
-//                }else{
+
                     fileName = new File("");
 
                     String message;
